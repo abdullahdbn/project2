@@ -1,0 +1,43 @@
+ /*to big tablets 1024-1200*/
+@media screen and (max-width: 1200px){
+.hero-text-box{
+   padding: 0 2%;
+   width : 100%;
+   
+}
+    
+    .row{padding: 0 2%;}
+           
+}
+
+/*small tablet to big tablets 768-1023*/
+@media screen and (max-width: 1023px){
+    body{
+        font-size: 18px;
+    }
+    section{padding: 16px;}
+    
+    .long-copy{
+    width: 80%;
+    margin-left: 10%
+    
+}
+           
+           
+}
+
+/*small phones and tablet 767-481*/
+@media screen and (max-width: 767px){
+    .section-features{padding: 0 0;}
+      .row{padding: 0 0;}
+    .plan , .plan row:last-child{ padding: inherit 0;}
+    .contact-form{width: 100%;
+    margin: 0;}
+           
+           
+}
+/*---small phones--->*/
+@media screen and (max-width: 480px){
+           
+           
+}
